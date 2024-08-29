@@ -1,0 +1,62 @@
+﻿@using STOCKTRACKING.Models.Entity
+@model List<ACT>
+@{
+    ViewBag.Title = "ACT";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h4>Basic DataTables</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped" id="table-1">
+                <thead>
+                    <tr>
+-  
+                        <th class="sorting_asc">CARİ ID</th>
+                        <th class="sorting">CARİ ADI</th>
+                        <th class="sorting">CARİ NO</th>
+                        <th class="sorting">E-MAİL</th>
+                        <th class="sorting">TELEFON</th>
+                        <th class="sorting">DETAY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var Row in Model)
+                        {
+                            <tr>
+                                <td>@Row.ACTID</td>
+                                <td>@Row.ACTNAME</td>
+                                <td>@Row.ACTNO</td>
+                                <td>@Row.EMAİL</td>
+                                <td>@Row.PHONE1</td>
+                               
+                                <td>
+                                    <a href="/Admin/MusteriForm?ACTID=@Row.ACTID" class="btn btn-primary">DÜZENLE</a>
+                                    <a href="/Admin/SIL3?ACTID=@Row.ACTID" class="btn btn-danger">SİL</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <a href="/Admin/MusteriForm" class="btn btn-primary">EKLE</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

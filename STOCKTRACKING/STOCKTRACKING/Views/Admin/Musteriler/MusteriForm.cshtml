@@ -1,0 +1,29 @@
+﻿@using STOCKTRACKING.Models.MusteriModels
+@model MusteriFormModel
+@{
+    ViewBag.Title = "MusteriForm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form method="post" class="form-group">
+    @Html.HiddenFor(m => m.ACT.ACTID)
+    <div>
+        <label>MÜŞTERİ ADI</label>
+        @Html.TextBoxFor(m => m.ACT.ACTNAME, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>MÜŞTERİ NO</label>
+        @Html.TextBoxFor(m => m.ACT.ACTNO, new { @class = "form-control" })
+    </div><div>
+        <label>E-MAİL</label>
+        @Html.TextBoxFor(m => m.ACT.EMAİL, new { @class = "form-control" })
+    </div><div>
+        <label>TELEFON</label>
+        @Html.TextBoxFor(m => m.ACT.PHONE1, new { @class = "form-control" })
+    </div>
+
+
+    <div>
+        <button style="margin-top:15px" class="btn btn-warning">Kaydet</button>
+    </div>
+</form>

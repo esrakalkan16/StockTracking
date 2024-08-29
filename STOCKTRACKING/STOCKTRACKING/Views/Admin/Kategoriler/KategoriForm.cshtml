@@ -1,0 +1,17 @@
+﻿@using STOCKTRACKING.Models.KategoryModels
+@model KategoryFormModel
+@{
+    ViewBag.Title = "KategoriForm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form method="post" class="form-group">
+    @Html.HiddenFor(m=>m.CATEGORY.CATEGORYID)
+    <div>
+        <label>KATEGORİ ADI</label>
+        @Html.TextBoxFor(m => m.CATEGORY.CATEGORYNAME, new { @class = "form-control" })
+    </div>
+    <div>
+        <button style="margin-top:15px" class="btn btn-warning">Kaydet</button>
+    </div>
+</form>

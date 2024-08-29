@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StokSatisProgramıModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ACT">
+    <Key>
+      <PropertyRef Name="ACTID" />
+    </Key>
+    <Property Name="ACTID" Type="Int32" Nullable="false" />
+    <Property Name="ACTNO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ACTNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TAXNO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TAXOFFİCE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ADDRESS1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ADDRESS2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ADDRESS3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TOWN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CITY" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="COUNTRY" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="REGİON" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="POSTALCODE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PHONE1" Type="Int32" />
+    <Property Name="PHONE2" Type="Int32" />
+    <Property Name="GSM" Type="Int32" />
+    <Property Name="FAX" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="WEBADDRESS" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EMAİL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="STATUS" Type="Int32" />
+    <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="CATEGORYID" />
+    </Key>
+    <Property Name="CATEGORYID" Type="Int32" Nullable="false" />
+    <Property Name="CATEGORYNAME" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="STATUS" Type="Int32" />
+    <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="STOCK">
+    <Key>
+      <PropertyRef Name="STOCKID" />
+    </Key>
+    <Property Name="STOCKID" Type="Int32" Nullable="false" />
+    <Property Name="STOCKNAME" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="STOCKNO" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="PURCHASEPRİCE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SALEPRİCE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="STATUS" Type="Int32" />
+    <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="STOCKCATEGORYS">
+    <Key>
+      <PropertyRef Name="STOCKID" />
+      <PropertyRef Name="CATEGORYID" />
+    </Key>
+    <Property Name="STOCKID" Type="Int32" Nullable="false" />
+    <Property Name="CATEGORYID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="StokSatisProgramıEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ACT" EntityType="Self.ACT" />
+    <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" />
+    <EntitySet Name="STOCK" EntityType="Self.STOCK" />
+    <EntitySet Name="STOCKCATEGORYS" EntityType="Self.STOCKCATEGORYS" />
+  </EntityContainer>
+</Schema>

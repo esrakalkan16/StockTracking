@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StokSatisProgramıModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ACT">
+    <Key>
+      <PropertyRef Name="ACTID" />
+    </Key>
+    <Property Name="ACTID" Type="int" Nullable="false" />
+    <Property Name="ACTNO" Type="nvarchar" MaxLength="100" />
+    <Property Name="ACTNAME" Type="nvarchar" MaxLength="100" />
+    <Property Name="TAXNO" Type="nvarchar" MaxLength="100" />
+    <Property Name="TAXOFFİCE" Type="nvarchar" MaxLength="100" />
+    <Property Name="ADDRESS1" Type="nvarchar" MaxLength="100" />
+    <Property Name="ADDRESS2" Type="nvarchar" MaxLength="100" />
+    <Property Name="ADDRESS3" Type="nvarchar" MaxLength="100" />
+    <Property Name="TOWN" Type="nvarchar" MaxLength="100" />
+    <Property Name="CITY" Type="nvarchar" MaxLength="100" />
+    <Property Name="COUNTRY" Type="nvarchar" MaxLength="100" />
+    <Property Name="REGİON" Type="nvarchar" MaxLength="100" />
+    <Property Name="POSTALCODE" Type="nvarchar" MaxLength="100" />
+    <Property Name="PHONE1" Type="int" />
+    <Property Name="PHONE2" Type="int" />
+    <Property Name="GSM" Type="int" />
+    <Property Name="FAX" Type="nvarchar" MaxLength="100" />
+    <Property Name="WEBADDRESS" Type="nvarchar" MaxLength="100" />
+    <Property Name="EMAİL" Type="nvarchar" MaxLength="100" />
+    <Property Name="STATUS" Type="int" />
+    <Property Name="DESCRİPTİON" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="CATEGORYID" />
+    </Key>
+    <Property Name="CATEGORYID" Type="int" Nullable="false" />
+    <Property Name="CATEGORYNAME" Type="nchar" MaxLength="50" />
+    <Property Name="STATUS" Type="int" />
+    <Property Name="DESCRİPTİON" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="STOCK">
+    <Key>
+      <PropertyRef Name="STOCKID" />
+    </Key>
+    <Property Name="STOCKID" Type="int" Nullable="false" />
+    <Property Name="STOCKNAME" Type="nchar" MaxLength="50" />
+    <Property Name="STOCKNO" Type="nchar" MaxLength="50" />
+    <Property Name="PURCHASEPRİCE" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SALEPRİCE" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="STATUS" Type="int" />
+    <Property Name="DESCRİPTİON" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="STOCKCATEGORYS">
+    <Key>
+      <PropertyRef Name="STOCKID" />
+      <PropertyRef Name="CATEGORYID" />
+    </Key>
+    <Property Name="STOCKID" Type="int" Nullable="false" />
+    <Property Name="CATEGORYID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="StokSatisProgramıModelStoreContainer">
+    <EntitySet Name="ACT" EntityType="Self.ACT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="STOCK" EntityType="Self.STOCK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="STOCKCATEGORYS" EntityType="Self.STOCKCATEGORYS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

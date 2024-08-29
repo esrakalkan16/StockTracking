@@ -1,0 +1,47 @@
+﻿@using STOCKTRACKING.Models.Entity;
+@model List<STOCK>
+@{
+    ViewBag.Title = "STOCK";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div class="card">
+    <div class="card-header">
+        <h4>Basic DataTables</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped" id="table-1">
+                <thead>
+                    <tr>
+                        -
+                        <th class="sorting_asc">STOK ID</th>
+                        <th class="sorting">STOK ADI</th>
+                        <th class="sorting">STOK NO</th>
+                        <th class="sorting">ALIŞ FİYATI</th>
+                        <th class="sorting">SATIŞ FİYATI</th>
+                        <th class="sorting">DETAY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var Row in Model)
+                        {
+                            <tr>
+                                <td>@Row.STOCKID</td>
+                                <td>@Row.STOCKNAME</td>
+                                <td>@Row.STOCKNO</td>
+                                <td>@Row.SALEPRİCE</td>
+                                <td>@Row.PURCHASEPRİCE</td>
+                                <td>
+                                    <a href="/Admin/UrunForm?STOCKID=@Row.STOCKID" class="btn btn-primary">DÜZENLE</a>
+                                    <a href="/Admin/SIL2?STOCKID=@Row.STOCKID" class="btn btn-danger">SİL</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <a href="/Admin/UrunForm" class="btn btn-primary">EKLE</a>
+        </div>
+    </div>
+</div>

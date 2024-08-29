@@ -1,0 +1,80 @@
+﻿@using STOCKTRACKING.Models.UrunModels
+@model UrunFormModel
+
+@{
+    ViewBag.Title = "UrunForm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form method="post" class="form-group">
+    @Html.HiddenFor(m => m.STOCK.STOCKID)
+    <div>
+        <label>STOK ADI</label>
+        @Html.TextBoxFor(m => m.STOCK.STOCKNAME, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>STOK NO</label>
+        @Html.TextBoxFor(m => m.STOCK.STOCKNO, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>ALIŞ FİYATI</label>
+        @Html.TextBoxFor(m => m.STOCK.PURCHASEPRİCE, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>SATIŞ FİYATI</label>
+        @Html.TextBoxFor(m => m.STOCK.SALEPRİCE, new { @class = "form-control" })
+    </div>
+
+
+
+    <div class="card" style="margin-top:50px">
+        <div class="card-header">
+            <h4>KATEGORİLER</h4>
+            <div class="card-header-form">
+
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <tr>
+                        <th>KATEGORİ ID</th>
+                        <th>KATEGORİ ADI</th>
+                        <th>SEÇ</th>
+                    </tr>
+                    <tbody>
+                        @foreach (var Row in Model.CATEGORY)
+                        {
+                            bool isChecked = Model.STOCKCATEGORYS.Any(sc => sc.CATEGORYID == Row.CATEGORYID);
+
+                            <tr>
+                                <td>@Row.CATEGORYID</td>
+                                <td>@Row.CATEGORYNAME</td>
+                                <td>
+                                    <div class="custom-checkbox custom-checkbox-table custom-control">
+                                        @if (isChecked)
+                                        {
+                                            <input type="checkbox" class="custom-control-input" name="esra" id="checkbox-@Row.CATEGORYID" value="@Row.CATEGORYID" checked>
+                                        }
+                                        else
+                                        {
+                                            <input type="checkbox" class="custom-control-input" name="esra" id="checkbox-@Row.CATEGORYID" value="@Row.CATEGORYID">
+                                        }
+                                        <label for="checkbox-@Row.CATEGORYID" class="custom-control-label">&nbsp;</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button style="margin-top:25px;margin-left:1500px" class="btn btn-warning">Kaydet</button>
+    </div>
+
+</form>

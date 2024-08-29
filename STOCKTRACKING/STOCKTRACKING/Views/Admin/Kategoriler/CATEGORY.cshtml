@@ -1,0 +1,82 @@
+﻿@using STOCKTRACKING.Models.Entity
+@model List<CATEGORY>
+@{
+    ViewBag.Title = "CATEGORY";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h4>Basic DataTables</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped" id="table-1">
+                <thead>
+                    <tr>
+                        -
+                        <th class="sorting_asc">KATEGORİ ID</th>
+                        <th class="sorting">KATEGORİ ADI</th>
+                        <th class="sorting">DETAY</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var Row in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Row.CATEGORYID
+                                </td>
+                                <td>@Row.CATEGORYNAME</td>
+
+                                <td>
+
+                                    <a href="/Admin/KategoriForm?id=@Row.CATEGORYID" class="btn btn-primary" onclick="return confirm('Gerçekten Silmek İstiyor Musunuz?');">DÜZENLE</a>
+                                    <a href="#" class="btn btn-danger delete-btn" data-id="@Row.CATEGORYID" data-url="/Admin/SIL?CATEGORYID=@Row.CATEGORYID">SİL</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+
+            </table>
+            <a href="/Admin/KategoriForm" class="btn btn-primary">EKLE</a>
+
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.delete-btn').click(function (e) {
+            e.preventDefault(); // Linkin varsayılan işlevini engelle
+
+            var button = $(this);
+            var url = button.data('url');
+
+            if (confirm('Gerçekten silmek istiyor musunuz?')) {
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    success: function (response) {
+                        if (response.success) {
+                            alert(response.message);
+                            window.location.reload(); // Sayfayı yenilemek, işlemi tamamladığınızdan emin olur
+                        } else {
+                            alert(response.message); // Silme başarısız ise uyarı mesajı göster
+                        }
+                    },
+                    error: function () {
+                        alert('Silme işlemi sırasında bir hata oluştu.');
+                    }
+                });
+            }
+        });
+    });
+
+</script>

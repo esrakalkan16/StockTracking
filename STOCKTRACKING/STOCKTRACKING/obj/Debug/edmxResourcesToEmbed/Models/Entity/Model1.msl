@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StokSatisProgramıModelStoreContainer" CdmEntityContainer="StokSatisProgramıEntities">
+    <EntitySetMapping Name="ACT">
+      <EntityTypeMapping TypeName="StokSatisProgramıModel.ACT">
+        <MappingFragment StoreEntitySet="ACT">
+          <ScalarProperty Name="ACTID" ColumnName="ACTID" />
+          <ScalarProperty Name="ACTNO" ColumnName="ACTNO" />
+          <ScalarProperty Name="ACTNAME" ColumnName="ACTNAME" />
+          <ScalarProperty Name="TAXNO" ColumnName="TAXNO" />
+          <ScalarProperty Name="TAXOFFİCE" ColumnName="TAXOFFİCE" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="TOWN" ColumnName="TOWN" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="REGİON" ColumnName="REGİON" />
+          <ScalarProperty Name="POSTALCODE" ColumnName="POSTALCODE" />
+          <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+          <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+          <ScalarProperty Name="GSM" ColumnName="GSM" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="WEBADDRESS" ColumnName="WEBADDRESS" />
+          <ScalarProperty Name="EMAİL" ColumnName="EMAİL" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATEGORY">
+      <EntityTypeMapping TypeName="StokSatisProgramıModel.CATEGORY">
+        <MappingFragment StoreEntitySet="CATEGORY">
+          <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+          <ScalarProperty Name="CATEGORYNAME" ColumnName="CATEGORYNAME" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STOCK">
+      <EntityTypeMapping TypeName="StokSatisProgramıModel.STOCK">
+        <MappingFragment StoreEntitySet="STOCK">
+          <ScalarProperty Name="STOCKID" ColumnName="STOCKID" />
+          <ScalarProperty Name="STOCKNAME" ColumnName="STOCKNAME" />
+          <ScalarProperty Name="STOCKNO" ColumnName="STOCKNO" />
+          <ScalarProperty Name="PURCHASEPRİCE" ColumnName="PURCHASEPRİCE" />
+          <ScalarProperty Name="SALEPRİCE" ColumnName="SALEPRİCE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STOCKCATEGORYS">
+      <EntityTypeMapping TypeName="StokSatisProgramıModel.STOCKCATEGORYS">
+        <MappingFragment StoreEntitySet="STOCKCATEGORYS">
+          <ScalarProperty Name="STOCKID" ColumnName="STOCKID" />
+          <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

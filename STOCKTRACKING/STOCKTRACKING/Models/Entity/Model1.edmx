@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="StokSatisProgramıModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ACT">
+          <Key>
+            <PropertyRef Name="ACTID" />
+          </Key>
+          <Property Name="ACTID" Type="int" Nullable="false" />
+          <Property Name="ACTNO" Type="nvarchar" MaxLength="100" />
+          <Property Name="ACTNAME" Type="nvarchar" MaxLength="100" />
+          <Property Name="TAXNO" Type="nvarchar" MaxLength="100" />
+          <Property Name="TAXOFFİCE" Type="nvarchar" MaxLength="100" />
+          <Property Name="ADDRESS1" Type="nvarchar" MaxLength="100" />
+          <Property Name="ADDRESS2" Type="nvarchar" MaxLength="100" />
+          <Property Name="ADDRESS3" Type="nvarchar" MaxLength="100" />
+          <Property Name="TOWN" Type="nvarchar" MaxLength="100" />
+          <Property Name="CITY" Type="nvarchar" MaxLength="100" />
+          <Property Name="COUNTRY" Type="nvarchar" MaxLength="100" />
+          <Property Name="REGİON" Type="nvarchar" MaxLength="100" />
+          <Property Name="POSTALCODE" Type="nvarchar" MaxLength="100" />
+          <Property Name="PHONE1" Type="int" />
+          <Property Name="PHONE2" Type="int" />
+          <Property Name="GSM" Type="int" />
+          <Property Name="FAX" Type="nvarchar" MaxLength="100" />
+          <Property Name="WEBADDRESS" Type="nvarchar" MaxLength="100" />
+          <Property Name="EMAİL" Type="nvarchar" MaxLength="100" />
+          <Property Name="STATUS" Type="int" />
+          <Property Name="DESCRİPTİON" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="CATEGORYID" Type="int" Nullable="false" />
+          <Property Name="CATEGORYNAME" Type="nchar" MaxLength="50" />
+          <Property Name="STATUS" Type="int" />
+          <Property Name="DESCRİPTİON" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="STOCK">
+          <Key>
+            <PropertyRef Name="STOCKID" />
+          </Key>
+          <Property Name="STOCKID" Type="int" Nullable="false" />
+          <Property Name="STOCKNAME" Type="nchar" MaxLength="50" />
+          <Property Name="STOCKNO" Type="nchar" MaxLength="50" />
+          <Property Name="PURCHASEPRİCE" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="SALEPRİCE" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="STATUS" Type="int" />
+          <Property Name="DESCRİPTİON" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="STOCKCATEGORYS">
+          <Key>
+            <PropertyRef Name="STOCKID" />
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="STOCKID" Type="int" Nullable="false" />
+          <Property Name="CATEGORYID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="StokSatisProgramıModelStoreContainer">
+          <EntitySet Name="ACT" EntityType="Self.ACT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="STOCK" EntityType="Self.STOCK" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="STOCKCATEGORYS" EntityType="Self.STOCKCATEGORYS" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StokSatisProgramıModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ACT">
+          <Key>
+            <PropertyRef Name="ACTID" />
+          </Key>
+          <Property Name="ACTID" Type="Int32" Nullable="false" />
+          <Property Name="ACTNO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ACTNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="TAXNO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="TAXOFFİCE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ADDRESS1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ADDRESS2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ADDRESS3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="TOWN" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CITY" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COUNTRY" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="REGİON" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="POSTALCODE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="PHONE1" Type="Int32" />
+          <Property Name="PHONE2" Type="Int32" />
+          <Property Name="GSM" Type="Int32" />
+          <Property Name="FAX" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="WEBADDRESS" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="EMAİL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="STATUS" Type="Int32" />
+          <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="CATEGORYID" Type="Int32" Nullable="false" />
+          <Property Name="CATEGORYNAME" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="STATUS" Type="Int32" />
+          <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="STOCK">
+          <Key>
+            <PropertyRef Name="STOCKID" />
+          </Key>
+          <Property Name="STOCKID" Type="Int32" Nullable="false" />
+          <Property Name="STOCKNAME" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="STOCKNO" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="PURCHASEPRİCE" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SALEPRİCE" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="STATUS" Type="Int32" />
+          <Property Name="DESCRİPTİON" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="STOCKCATEGORYS">
+          <Key>
+            <PropertyRef Name="STOCKID" />
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="STOCKID" Type="Int32" Nullable="false" />
+          <Property Name="CATEGORYID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="StokSatisProgramıEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ACT" EntityType="Self.ACT" />
+          <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" />
+          <EntitySet Name="STOCK" EntityType="Self.STOCK" />
+          <EntitySet Name="STOCKCATEGORYS" EntityType="Self.STOCKCATEGORYS" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StokSatisProgramıModelStoreContainer" CdmEntityContainer="StokSatisProgramıEntities">
+          <EntitySetMapping Name="ACT">
+            <EntityTypeMapping TypeName="StokSatisProgramıModel.ACT">
+              <MappingFragment StoreEntitySet="ACT">
+                <ScalarProperty Name="ACTID" ColumnName="ACTID" />
+                <ScalarProperty Name="ACTNO" ColumnName="ACTNO" />
+                <ScalarProperty Name="ACTNAME" ColumnName="ACTNAME" />
+                <ScalarProperty Name="TAXNO" ColumnName="TAXNO" />
+                <ScalarProperty Name="TAXOFFİCE" ColumnName="TAXOFFİCE" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+                <ScalarProperty Name="TOWN" ColumnName="TOWN" />
+                <ScalarProperty Name="CITY" ColumnName="CITY" />
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="REGİON" ColumnName="REGİON" />
+                <ScalarProperty Name="POSTALCODE" ColumnName="POSTALCODE" />
+                <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+                <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+                <ScalarProperty Name="GSM" ColumnName="GSM" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="WEBADDRESS" ColumnName="WEBADDRESS" />
+                <ScalarProperty Name="EMAİL" ColumnName="EMAİL" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CATEGORY">
+            <EntityTypeMapping TypeName="StokSatisProgramıModel.CATEGORY">
+              <MappingFragment StoreEntitySet="CATEGORY">
+                <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+                <ScalarProperty Name="CATEGORYNAME" ColumnName="CATEGORYNAME" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="STOCK">
+            <EntityTypeMapping TypeName="StokSatisProgramıModel.STOCK">
+              <MappingFragment StoreEntitySet="STOCK">
+                <ScalarProperty Name="STOCKID" ColumnName="STOCKID" />
+                <ScalarProperty Name="STOCKNAME" ColumnName="STOCKNAME" />
+                <ScalarProperty Name="STOCKNO" ColumnName="STOCKNO" />
+                <ScalarProperty Name="PURCHASEPRİCE" ColumnName="PURCHASEPRİCE" />
+                <ScalarProperty Name="SALEPRİCE" ColumnName="SALEPRİCE" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="DESCRİPTİON" ColumnName="DESCRİPTİON" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="STOCKCATEGORYS">
+            <EntityTypeMapping TypeName="StokSatisProgramıModel.STOCKCATEGORYS">
+              <MappingFragment StoreEntitySet="STOCKCATEGORYS">
+                <ScalarProperty Name="STOCKID" ColumnName="STOCKID" />
+                <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

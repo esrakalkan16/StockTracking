@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\stok\\urunform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\stok\\urunform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\stok\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\stok\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\musteriler\\musteriform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\musteriler\\musteriform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\musteriler\\act.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\musteriler\\act.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\kategoriler\\kategoriform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\kategoriler\\kategoriform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\views\\admin\\kategoriler\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:views\\admin\\kategoriler\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\models\\urunmodels\\urunformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:models\\urunmodels\\urunformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\models\\musterimodels\\musteriformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:models\\musterimodels\\musteriformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\models\\entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOCKTRACKING.csproj|solutionrelative:models\\entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOKTRACKING.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOKTRACKING.csproj|c:\\users\\esra\\web developer\\2- back-end\\files\\stocktracking\\stocktracking\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE417775-FC50-4BB8-99CF-9C223DBA5721}|STOKTRACKING.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AQIAAHoBAAAAAAAAAAAAAMoBAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:34.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:28.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:26.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:25.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:19.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UrunForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Stok\\UrunForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Stok\\UrunForm.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Stok\\UrunForm.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Stok\\UrunForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:13.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "STOCK.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Stok\\STOCK.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Stok\\STOCK.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Stok\\STOCK.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Stok\\STOCK.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:08.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MusteriForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Musteriler\\MusteriForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Musteriler\\MusteriForm.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Musteriler\\MusteriForm.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Musteriler\\MusteriForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:58:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ACT.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Musteriler\\ACT.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Musteriler\\ACT.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Musteriler\\ACT.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Musteriler\\ACT.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:57:57.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KategoriForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Kategoriler\\KategoriForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Kategoriler\\KategoriForm.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Kategoriler\\KategoriForm.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Kategoriler\\KategoriForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:57:51.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CATEGORY.cshtml",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Kategoriler\\CATEGORY.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Kategoriler\\CATEGORY.cshtml",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Views\\Admin\\Kategoriler\\CATEGORY.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Kategoriler\\CATEGORY.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:57:28.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UrunFormModel.cs",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\UrunModels\\UrunFormModel.cs",
+              "RelativeDocumentMoniker": "Models\\UrunModels\\UrunFormModel.cs",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\UrunModels\\UrunFormModel.cs",
+              "RelativeToolTip": "Models\\UrunModels\\UrunFormModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:57:23.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MusteriFormModel.cs",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\MusteriModels\\MusteriFormModel.cs",
+              "RelativeDocumentMoniker": "Models\\MusteriModels\\MusteriFormModel.cs",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\MusteriModels\\MusteriFormModel.cs",
+              "RelativeToolTip": "Models\\MusteriModels\\MusteriFormModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:57:20.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\Entity\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Entity\\Model1.edmx",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Models\\Entity\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Entity\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-29T13:57:10.643Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:56:43.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\esra\\Web Developer\\2- Back-End\\Files\\STOCKTRACKING\\STOCKTRACKING\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:56:27.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
